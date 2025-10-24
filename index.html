@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://sm.ign.com/ign_in/news/h/harry-pott/harry-potter-hogwarts-mystery-is-confusing-players-about-est_mjce.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* More translucent */
+    padding: 20px; /* Smaller padding */
+    border-radius: 10px; /* Smaller border radius */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  h2 {
+    margin-bottom: 10px; /* Smaller margin */
+    font-family: 'Harry Potter', cursive;
+    font-size: 30px; /* Smaller font size */
+    color: #333;
+  }
+
+  h3 {
+    margin: 15px 0; /* Smaller margin */
+    font-family: 'Harry Potter', cursive;
+    font-size: 20px; /* Smaller font size */
+    color: #555;
+  }
+
+  .color-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; /* Smaller gap */
+    justify-items: center; /* Align the grid content horizontally */
+    margin-top: 15px; /* Smaller margin */
+  }
+
+  .button {
+    width: 100%; /* Make buttons expand to full width of their container */
+    height: 120px; /* Set the desired button height */
+    border-radius: 10px; /* Smaller border radius */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px; /* Larger font size */
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+
+  .button:hover {
+    transform: scale(1.05);
+  }
+
+  .red { background-color: #d32f2f; }
+  .green { background-color: #388e3c; }
+  .blue { background-color: #1976d2; }
+  .yellow { background-color: #fbc02d; }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Harry+Potter&display=swap" rel="stylesheet">
+<title>Harry Potter Invisibility Cloak</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Harry Potter Invisibility Cloak</h2>
+    <p>Mystical Cloak of Disappearance</p>
+    <h3>Choose Your Cloak Color</h3>
+
+    <div class="color-grid">
+      <button class="button red">Red</button>
+      <button class="button green">Green</button>
+      <button class="button blue">Blue</button>
+      <button class="button yellow">Yellow</button>
+    </div>
+  </div>
+</body>
+</html>
