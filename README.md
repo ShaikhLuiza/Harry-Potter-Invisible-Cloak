@@ -1,16 +1,33 @@
-# Multicolour-Invisibility-cloak
-Implemented an invisibility cloak using python with multiple colors.
-Hi everyone!!
-In this project, I have implemented an invisibility cloak using python which helps to make an object/person invisible.
-User has the choice to choose a cloak color of his/her choice and according to that the code is launched.
+🧙‍♂️ Multicolour Invisibility Cloak
 
-# How to Run the project 
+Implemented an invisibility cloak using Python, allowing users to make an object or person invisible in real-time video.
+The user can choose the cloak color of their choice, and the code dynamically detects and masks that color to create the invisibility effect.
 
-Step1 : pip install streamlit
-Note: If your System uses python3 use this command: python3 -m pip install streamlit
-Step2: Run the project 
-Use this Command: streamlit run main.py
-If it still says “command not found”, try:python -m streamlit run main.py
+🚀 How to Run the Project
+Step 1: Install Streamlit
+
+Run the following command to install Streamlit:
+
+pip install streamlit
+
+
+💡 Note:
+If your system uses Python 3, use this command instead:
+
+python3 -m pip install streamlit
+
+Step 2: Run the Project
+
+Use the following command to start the application:
+
+streamlit run main.py
+
+
+⚙️ If you get a “command not found” error, try one of these commands instead:
+
+python -m streamlit run main.py
+
+
 or
-py -m streamlit run main.py
 
+py -m streamlit run main.py
