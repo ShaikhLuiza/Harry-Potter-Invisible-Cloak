@@ -3,7 +3,7 @@
 Implemented an invisibility cloak using Python, allowing users to make an object or person invisible in real-time video.
 The user can choose the cloak color of their choice, and the code dynamically detects and masks that color to create the invisibility effect.
 
-🚀 How to Run the Project
+🚀 How to Run the Project 
 Step 1: Install Streamlit
 
 Run the following command to install Streamlit:
